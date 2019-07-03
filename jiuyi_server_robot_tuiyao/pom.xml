@@ -82,6 +82,16 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <!--配置源代码使用的开发版本-->
+                    <source>1.8</source>
+                    <!--配置需要生成的目标class文件的编译版本-->
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
