@@ -1,0 +1,45 @@
+server:
+  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: jiuyi-server-robot-tuiyao
+  datasource:
+    #driverClassName: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://127.0.0.1:3306/jiuyi?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    #username: root
+    #password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.150:3306/xqrobot?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: sf$dfdf_DFD4$d
+#mybatis
+mybatis:
+  mapperLocations: classpath*:spring/*.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xiaoqiao</groupId>
+    <artifactId>jiuyi</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <!--注册中心-->
+        <module>jiuyi_eureka</module>
+        <!--实体，工具类-->
+        <module>jiuyi_common</module>
+        <!--robot功能api-->
+        <module>jiuyi_api_robot</module>
+        <!--robot功能消费者-->
+        <module>jiuyi_feign_robot</module>
+        <!--robot功能生产者-->
+        <module>jiuyi_server_robot_tuiyao</module>
+        <!--路由-->
+        <module>jiuyi_zuul</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.1.6.RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>jiuyi</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.6.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

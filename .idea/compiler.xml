@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jiuyi_api_robot" />
+        <module name="jiuyi_common" />
+        <module name="jiuyi_eureka" />
+        <module name="jiuyi_feign_robot" />
+        <module name="jiuyi_server_robot_tuiyao" />
+        <module name="jiuyi_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jiuyi_robot_es" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jiuyi_api_robot" options="-parameters" />
+      <module name="jiuyi_common" options="-parameters" />
+      <module name="jiuyi_eureka" options="-parameters" />
+      <module name="jiuyi_feign_robot" options="-parameters" />
+      <module name="jiuyi_robot_es" options="-parameters" />
+      <module name="jiuyi_server_robot_tuiyao" options="-parameters" />
+      <module name="jiuyi_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

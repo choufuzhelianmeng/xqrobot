@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/jiuyi_api_robot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_feign_robot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_robot_es" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_server_robot_tuiyao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jiuyi_zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
