@@ -10,25 +10,25 @@ public class HealthFile implements Serializable {
     private static final long serialVersionUID = -8618844432628191412L;
 
     //自增ID
-    private String code;
+    private int code;
     //档案名称
     private String name;
     //用户code
-    private String userCode;
+    private int userCode;
     //年龄
-    private String age;
+    private int age;
     //性别（1，男 2，女）
-    private String sex;
+    private int sex;
     //药物过敏（0，过敏 1，不过敏）
-    private String yaowuguomin;
+    private int yaowuguomin;
     //病史(0为健康）
     private String bingshi;
     //肝功能（0，不全 1，正常）
-    private String gangongneng;
+    private int gangongneng;
     //肾功能（0，不全 1，正常）
-    private String shengongneng;
+    private int shengongneng;
     //孕妇及哺乳（0，正常 1，孕期，2哺乳期）
-    private String yunfuburu;
+    private int yunfuburu;
     //禁用药
     private String jinyongdrug;
     //创建时间
@@ -36,15 +36,15 @@ public class HealthFile implements Serializable {
     //修改时间
     private String updateDate;
     //身高
-    private String shengao;
+    private int shengao;
     //体重
-    private String tizhong;
+    private Double tizhong;
 
-    public String getCode() {
+    public int getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(int code) {
         this.code = code;
     }
 
@@ -56,35 +56,35 @@ public class HealthFile implements Serializable {
         this.name = name;
     }
 
-    public String getUserCode() {
+    public int getUserCode() {
         return userCode;
     }
 
-    public void setUserCode(String userCode) {
+    public void setUserCode(int userCode) {
         this.userCode = userCode;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public String getSex() {
+    public int getSex() {
         return sex;
     }
 
-    public void setSex(String sex) {
+    public void setSex(int sex) {
         this.sex = sex;
     }
 
-    public String getYaowuguomin() {
+    public int getYaowuguomin() {
         return yaowuguomin;
     }
 
-    public void setYaowuguomin(String yaowuguomin) {
+    public void setYaowuguomin(int yaowuguomin) {
         this.yaowuguomin = yaowuguomin;
     }
 
@@ -96,27 +96,27 @@ public class HealthFile implements Serializable {
         this.bingshi = bingshi;
     }
 
-    public String getGangongneng() {
+    public int getGangongneng() {
         return gangongneng;
     }
 
-    public void setGangongneng(String gangongneng) {
+    public void setGangongneng(int gangongneng) {
         this.gangongneng = gangongneng;
     }
 
-    public String getShengongneng() {
+    public int getShengongneng() {
         return shengongneng;
     }
 
-    public void setShengongneng(String shengongneng) {
+    public void setShengongneng(int shengongneng) {
         this.shengongneng = shengongneng;
     }
 
-    public String getYunfuburu() {
+    public int getYunfuburu() {
         return yunfuburu;
     }
 
-    public void setYunfuburu(String yunfuburu) {
+    public void setYunfuburu(int yunfuburu) {
         this.yunfuburu = yunfuburu;
     }
 
@@ -144,19 +144,19 @@ public class HealthFile implements Serializable {
         this.updateDate = updateDate;
     }
 
-    public String getShengao() {
+    public int getShengao() {
         return shengao;
     }
 
-    public void setShengao(String shengao) {
+    public void setShengao(int shengao) {
         this.shengao = shengao;
     }
 
-    public String getTizhong() {
+    public Double getTizhong() {
         return tizhong;
     }
 
-    public void setTizhong(String tizhong) {
+    public void setTizhong(Double tizhong) {
         this.tizhong = tizhong;
     }
 }
