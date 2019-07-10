@@ -205,7 +205,7 @@ public class Disease implements Serializable {
 
 	/**
 	 *
-	 * @param categorycode 分类CODE 没用上
+	 * @param categorycode 分类CODE 现在没用
 	 */
 	public void setCategorycode(int categorycode) {
 		this.categorycode = categorycode;
