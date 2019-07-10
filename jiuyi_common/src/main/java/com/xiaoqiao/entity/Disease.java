@@ -14,7 +14,7 @@ import java.io.Serializable;
 public class Disease implements Serializable {
 
 
-	private static final long serialVersionUID = 5456613320817835481L;
+	private static final long serialVersionUID = -5112444926521643891L;
 	private int code;
 	private String name; //名称'
 	private String miaoshu; // '描述'
