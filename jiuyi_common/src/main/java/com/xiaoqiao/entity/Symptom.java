@@ -14,8 +14,8 @@ public class Symptom implements Serializable {
     private String miaoshu;
     //排序
     private int sort;
-    //疾病Code    disease
-    private int dis_code;
+    //疾病Code    disease表关联
+    private int disCode;
     //相悖症状
     private String contrarycodes;
     //症状权重
@@ -55,12 +55,12 @@ public class Symptom implements Serializable {
         this.sort = sort;
     }
 
-    public int getDis_code() {
-        return dis_code;
+    public int getDisCode() {
+        return disCode;
     }
 
-    public void setDis_code(int dis_code) {
-        this.dis_code = dis_code;
+    public void setDisCode(int disCode) {
+        this.disCode = disCode;
     }
 
     public String getContrarycodes() {
