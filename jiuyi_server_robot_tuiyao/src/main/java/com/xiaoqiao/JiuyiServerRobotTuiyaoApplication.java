@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.xiaoqiao.mapper")
+/*@MapperScan("com.xiaoqiao.mapper")*/
 public class JiuyiServerRobotTuiyaoApplication {
 
     public static void main(String[] args) {
